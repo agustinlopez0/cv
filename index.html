@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+        <title>CV - Agustín López</title>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- css -->
+        <link rel="stylesheet" href="./styles.css">
+        <!-- devicon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    </head>
+    <body>
+        <section id="nombre">
+            <div class="outline">
+                <h1>Agustín López</h1>
+                <span>Junior Developer </span>
+            </div>
+        </section>
+        <section id="left-right">
+            <section id="contacto">
+                <h2>Datos de contacto</h2>
+                <ul>
+                    <li><i class="fa-brands fa-github"></i> <a target="_blank" href="https://github.com/agustinlopez0">github.com/agustinlopez0</a></li>
+                    <li><i class="fa-regular fa-envelope"></i> <a href="mailto:agustinlopez686@gmail.com">agustinlopez686@gmail.com</a></li>
+                    <li><i class="fa-solid fa-mobile-screen"></i> <a href="tel:+5493413469014">+54 9 341 346-9014</a></li>
+                    <li><i class="fa-solid fa-earth-americas"></i> Rosario, Argentina</li>
+                    <li class="flex-center"><i class="fa-solid fa-language"></i> <span> Español (nativo) <br> Inglés (intermedio)</span></li>
+                    <li class="flex-center"><i class="fa-regular fa-calendar-minus"></i> <span>Fecha de nacimiento:   <br> 01/01/2004 </span></li>
+                    <li><a class="w-link" href="./CV_Agustin_Lopez.pdf">Ver versión PDF.</a></li>
+                </ul>
+            </section>
+            <div class="right">
+                <section id="perfil">
+                    <h2>Perfil</h2>
+                    <p>
+                        Comencé con la programación en 3er año de secundaria con el lenguaje C, aprendí HTML, CSS y JavaScript por mi cuenta para 
+                        construir páginas web. A lo largo de los años seguí profundizando en la programación en general introduciéndome en distintos 
+                        tipos de datos, manejo de memoria dinámico, programación funcional, programación orientada a objetos, frameworks, 
+                        tests automatizados, manejo de sistemas operativos Linux, conocimientos sobre redes, control de versiones, etc.
+                    </p>
+                </section>
+                <section id="habilidades">
+                    <h2>Habilidades</h2>
+                    <div id="grid-icons">
+                        <i class="devicon-c-plain-wordmark"></i>
+                        <i class="devicon-html5-plain-wordmark"></i>
+                        <i class="devicon-css3-plain-wordmark"></i>
+                        <i class="devicon-bootstrap-plain-wordmark"></i>
+                        <i class="fa-brands fa-js-square"></i>
+                        <i class="devicon-jquery-plain-wordmark"></i>
+                        <i class="devicon-vuejs-plain-wordmark"></i>
+                        <i class="devicon-nodejs-plain-wordmark"></i>
+                        <i class="devicon-php-plain"></i>
+                        <i class="devicon-mysql-plain-wordmark"></i>
+                        <i class="devicon-sqlite-plain-wordmark"></i>
+                        <!-- <i class="devicon-laravel-plain-wordmark"></i> -->
+                        <!-- <i class="devicon-mongodb-plain-wordmark"></i> -->
+                        <i class="devicon-git-plain-wordmark"></i>
+                        <i class="devicon-haskell-plain-wordmark"></i>
+                        <i class="devicon-latex-original"></i>
+                        <!-- <i class="devicon-python-plain-wordmark"></i> -->
+                        <i class="devicon-ruby-plain-wordmark"></i>
+                        <i class="devicon-inkscape-plain-wordmark"></i>
+                        <i class="devicon-linux-plain"></i>
+                    </div>
+                </section>
+                <section id="formacion">
+                    <h2>Formación</h2>
+                    <p>
+                        <h3>Instituto Politécnico Superior</h3>
+                        <p>(2017 - Actualidad)</p>
+                        <p><span class="bold">Técnico en Informática Personal y Profesional</span></p>
+                    </p>
+                    <br>
+                    <p>
+                        <h3>Argentina Programa</h3>
+                        <p>(2022 - Actualidad)</p>
+                        <p>Es un curso de aproximadamente 200 horas que abarca desde los fundamentos de programación
+                            hasta los conocimientos para convertirse en <span class="bold">programador web full stack junior</span>.
+                            <br>
+                            <a id="link" target="_blank" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa">¿Qué es Argentina Programa?</a>
+                        </p>
+                    </p>
+                    <!-- <p>
+                        <h3>Instituto Politécnico Superior</h3>
+                        <p>(2017 - 2022)</p>
+                        <p>Técnico en Informática Personal y Profesional</p>
+                    </p> -->
+                </section>
+                <section id="objetivos">
+                    <h2>Objetivos</h2>
+                    <p>
+                        Estoy en búsqueda de mi primer experiencia laboral profesional, busco adquirir experiencia en cualquier aspecto de la informática
+                        que ayude a expandir mis conocimientos en nuevas tecnologías y genere nuevos desafíos.
+                    </p>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <span id ="footer-span">
+                Agustín López
+            </span>
+        </footer>
+    </body>
+    <script>
+        document.getElementById('footer-span').innerHTML += new Date().getFullYear()
+    </script>
+    <script src="https://kit.fontawesome.com/c9107b5b2a.js" crossorigin="anonymous"></script>
+</html>
